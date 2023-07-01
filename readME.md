@@ -113,3 +113,15 @@ pm2 delete app.js
 ```bash
 pm2 save
 ```
+
+13. Update PM2 to the latest version:
+
+```bash
+pm2 update
+```
+
+14. Get help and view all available commands:
+
+```bash
+pm2 --help
+```
