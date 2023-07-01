@@ -1,0 +1,17 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "description": "nodejs redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.5.6"
+  }
+}
