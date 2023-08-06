@@ -7,7 +7,7 @@ FROM base as production
 ENV NODE_ENV=production
 RUN npm ci
 COPY . /src
-CMD ["node", "app.js"]
+CMD ["node", "app.js"] 
 
 FROM base as dev
 ENV NODE_ENV=development
